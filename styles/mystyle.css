@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Noto Serif Khojki");
+@import url("https://fonts.googleapis.com/css?family=Noto Serif Khmer");
+
+header {
+  text-align: center;
+}
+
+/* main font */
+body {
+  font-family: "Noto Serif Khmer";
+}
+
+/* main color */
+body {
+  background-color: #bef7be;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* navbar color */
+.bg-dark {
+  background-color: #377537 !important;
+}
+
+/* navbar color */
+.navbar-brand {
+  font-family: Noto Serif Khojki;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: url("https://images.rawpixel.com/image_1000/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00MjItMDQ3LWtxOTJ3eDl5LmpwZw.jpg");
+  background-size: cover;
+}
+
+/* footer link settings */
+footer a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: inherit;
+}
+
+footer a:hover {
+  color: aqua;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+footer a:active {
+  background-color: red;
+}
+
+footer {
+  background-color: #377537 !important;
+  text-align: center;
+}
+
+.col-sm-4 li {
+  list-style: none;
+  font-weight: bold;
+}
+
+.maps {
+  text-align: center;
+}
+
+/* email message  */
+.message {
+  font-family: "Noto Serif Khmer";
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 300px;
+}
+
+.back {
+    text-align:center;
+    display:block;
+}
