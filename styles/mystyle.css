@@ -62,11 +62,19 @@ footer a:hover {
 footer a:active {
   background-color: red;
 }
-
+/* footer styling */
 footer {
   background-color: #377537 !important;
   text-align: center;
+  
+/*  solving the footer contrast issue  */
+  color: #f4f4f4;
 }
+footer h6 {
+  font-size: 25px;
+  color: #bef7be;
+}
+
 
 .col-sm-4 li {
   list-style: none;
@@ -87,6 +95,6 @@ footer {
 }
 
 .back {
-    text-align:center;
-    display:block;
+  text-align: center;
+  display: block;
 }
